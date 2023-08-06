@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: #edf1fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+input{
+  border: 2px solid blueviolet;
+  margin: 15px;
+  padding: 5px;
+}
+
+.logo {
+  font-size: 32px;
+  cursor: pointer;
+  color: blueviolet;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  color: blueviolet;
+}
+
+button {
+  margin-top: 10px;
+  background-color: blueviolet;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+h3{
+  font-size: 28px;
+}
+
+p{
+  font-size: 20px;
+}
+
+/* section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+.hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hspan{
+  color: blueviolet;
+  font-size: 44px;
+  font-weight: bolder;
+}
+
+.pspan{
+  color: blueviolet;
+  font-size: large;
+  font-weight: 500;
+}
+
+img{
+  border-radius: 40%;
+}
+
+
+
+/* footer section */
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
